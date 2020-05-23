@@ -1,17 +1,20 @@
 # IRIS-Nodejs-API-compact
 an all-in-1 package of the WebSocket MicroService Demo 
 
-To make the demo of the WebSocket-Micro-Server (WSockClientMicroSV)  
-the whole package is bundled into a sincle Docker Image   
+To simplify the demo of the WebSocket-Micro-Server (WSockClientMicroSV)  
+the whole package is now bundled into a sincle Docker Image  
+including intersystems/iris-community:2020.2.0.204.0   
+
 All you need to do now is:   
-- docker pull rcemper/rcc:iris-nodejs-compact  (once)
-  
-- docker run --rm --init -d \  
+- docker pull rcemper/rcc:iris-nodejs-compact  
+   _(once)_
+- docker __run__ --rm --init -d \  
   --name=iris1 -p 52773:52773 -p 51773:51773 \  
   rcemper/rcc:iris-nodejs-compact  
-
-- docker exec -it iris1 bash wsgo.sh   (start the micro service)
-
-- docker exec -it iris1 bash wsdemo.sh  (create + send test data)
-
-- docker exec -it iris1 bash wsdemo.sh  (enetually stop service)
+  _(start the container)_  
+- docker __exec__ -it iris1 bash wsgo.sh  
+  _(start the micro service)_  
+- docker __exec__ -it iris1 bash wsdemo.sh  
+  _(start control to create test data, send to echoServer, receive it)_  
+- docker exec -it iris1 bash wsdemo.sh  
+  _(evetually stop service if nod done from control)_
