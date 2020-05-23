@@ -16,5 +16,7 @@ All you need to do now is:
   _(start the micro service)_  
 - docker __exec__ -it iris1 bash wsdemo.sh  
   _(start control to create test data, send to echoServer, receive it)_  
-- docker exec -it iris1 bash wsdemo.sh  
-  _(evetually stop service if nod done from control)_
+- docker exec -it iris1 bash wsstop.sh  
+  _(evetually stop service if not done from control)_
+- docker stop iris1
+  _(terminate teh container)_
