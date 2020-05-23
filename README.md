@@ -19,4 +19,4 @@ All you need to do now is:
 - docker exec -it iris1 bash wsstop.sh  
   _(evetually stop service if not done from control)_
 - docker stop iris1
-  _(terminate teh container)_
+  _(terminate the container)_
