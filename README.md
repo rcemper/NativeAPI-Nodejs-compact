@@ -18,5 +18,5 @@ All you need to do now is:
   _(start control to create test data, send to echoServer, receive it)_  
 - docker exec -it iris1 bash wsstop.sh  
   _(evetually stop service if not done from control)_
-- docker __stop__ iris1
+- docker __stop__ iris1  
   _(terminate the container)_
