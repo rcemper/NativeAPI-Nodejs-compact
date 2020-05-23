@@ -6,7 +6,7 @@ the whole package is now bundled into a sincle Docker Image
 including intersystems/iris-community:2020.2.0.204.0   
 
 All you need to do now is:   
-- docker pull rcemper/rcc:iris-nodejs-compact  
+- docker pull __rcemper/rcc:iris-nodejs-compact__  
    _(once)_
 - docker __run__ --rm --init -d \  
   --name=iris1 -p 52773:52773 -p 51773:51773 \  
