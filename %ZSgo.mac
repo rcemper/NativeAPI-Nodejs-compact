@@ -1,0 +1,9 @@
+%ZSgo ; kick nodes service
+	set ^ZSocketRun=0
+	write $zf(-1,"/usr/bin/node /opt/irisapp/js/WsockIris.js")
+	 quit
+stop ; stop node service and relase stop
+	set ^ZSocketRun=-1
+	hang 5
+	set ^ZSocketRun=0
+	quit
