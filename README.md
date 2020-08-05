@@ -25,3 +25,5 @@ All you need to do now is:
   _(evetually stop service if not done from control)_
 - docker __stop__ iris1  
   _(terminate the container)_
+
+[Article in DC](https://community.intersystems.com/post/iris-nativeapi-nodejs-compact)
