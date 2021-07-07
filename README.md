@@ -3,23 +3,29 @@
 an all-in-1 package of the WebSocket MicroService Demo 
 
 To simplify the demo of the WebSocket-Micro-Server (WSockClientMicroSV)  
-the whole package is now bundled into a sincle Docker Image  
-including intersystems/iris-community:2020.2.0.204.0   
-
-All you need to do now is:   
-- docker pull __rcemper/rcc:iris-nodejs-compact__  
-   _(once)_
-- docker __run__ --rm --init -d \  
-  --name=iris1 -p 52773:52773 -p 51773:51773 \  
-  rcemper/rcc:iris-nodejs-compact  
-  _(start the container)_  
-- docker __exec__ -it iris1 bash wsgo.sh  
-  _(start the micro service)_  
-- docker __exec__ -it iris1 bash wsdemo.sh  
-  _(start control to create test data, send to echoServer, receive it)_  
-- docker exec -it iris1 bash wsstop.sh  
-  _(evetually stop service if not done from control)_
-- docker __stop__ iris1  
-  _(terminate the container)_
+the whole package is now bundled into a single Docker Image  
+## V2
+ Structure and installtion are now adjusted to OEX Standards
+### Prerequisites
+Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.   
+### Installation   
+Clone/git pull the repo into any local directory  
+```
+  git clone https://github.com/rcemper/IRIS-NativeAPI-Nodejs-compact.git
+```
+Open the terminal in this directory build and run the container:   
+```
+  docker-compose up -d   
+```
+### How to use it
+From the same terminal start the IRIS based client and prpare your order
+~~~
+  docker-compose exec iris iris session iris %ZSocket
+~~~
+Start a new terminal on the download directory and start the node based service
+~~~
+  docker-compose exec iris node WsockIris.js
+~~~
+Now it connects to IRIS and executes its orders 
 
 [Article in DC](https://community.intersystems.com/post/iris-nativeapi-nodejs-compact)
