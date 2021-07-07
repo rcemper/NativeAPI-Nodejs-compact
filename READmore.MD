@@ -1,4 +1,4 @@
-When you star the service (in a -it session as suggested)  
+When you start the service (in a -it session as suggested)  
 you see:  
 
      *****************************  

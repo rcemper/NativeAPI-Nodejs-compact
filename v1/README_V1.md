@@ -1,4 +1,8 @@
-
+~~~
+ This is a coding example working on IRIS 2020.2 
+ It will not be kept in synch with new versions      
+ It is also NOT serviced by InterSystems Support !   
+~~~ 
 # IRIS-Nodejs-API-compact
 an all-in-1 package of the WebSocket MicroService Demo 
 

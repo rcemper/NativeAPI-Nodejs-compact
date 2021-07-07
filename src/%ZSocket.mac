@@ -1,8 +1,10 @@
+ROUTINE %ZSocket  [Type=MAC]
 %ZSocket ; manage data for Websocket
 #;	pause client
 #;	0 = Pause
 #;  1 = Process Input
 #;  -1 = Exit Client
+	ZN "%SYS"
 	write !!,"*** Welcome to WebSocket Micoservice demo ***",!
 
 	set ^ZSocketRun=0

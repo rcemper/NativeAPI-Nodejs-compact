@@ -30,23 +30,17 @@ const W3CWebSocket = require('websocket').w3cwebsocket;
 
 console.log("\n\t*****************************");
 //      see if we got an IRIS host to serve
-var ip = process.argv.slice(2).toString().split(",")[0] ;
-if (ip.toString()=="") {
-        console.log("\t*** no IRIS host defined ****") ;
-//      console.log("\t********* game over *********");
-//      process.exit();
-        ip="localhost";
-        }
+var ip = "localhost";
+
 console.log("\tConnect to IRIS on: "+ip) ;
 
-var port = 51773 ;
+var port = 1972;
 var namespace = "%SYS" ;
 var username = "_system" ;
 var password = "SYS" ;
 
 // Create connection to InterSystems IRIS
-const connection = irisnative.createConnection({host: ip, port: port, ns: namespace, user: username, pwd: passwo
-rd}) ;
+const connection = irisnative.createConnection({host: ip, port: port, ns: namespace, user: username, pwd: password}) ;
 console.log("Successfully connected to InterSystems IRIS.") ;
 
 // Create an InterSystems IRIS native object
