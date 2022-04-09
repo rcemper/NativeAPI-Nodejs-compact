@@ -2,6 +2,6 @@
 zn "%SYS"
 Do ##class(Security.Users).UnExpireUserPasswords("*")
 do $SYSTEM.OBJ.Load("/opt/irisbuild/src/%ZSocket.mac","ck") 
-zn "IRISAPP"
+zn "USER"
 zpm "install webterminal"
 halt
