@@ -22,10 +22,19 @@ From the same terminal start the IRIS based client and prepare your orders
 ~~~
   docker-compose exec iris iris session iris %ZSocket
 ~~~
+on WebTerminal it is simply
+~~~
+USER>do ^%ZSocket
+~~~
 Open a new terminal on the download directory and start the node based service   
 ~~~
   docker-compose exec iris node WsockIris.js
 ~~~
+or open a new WebTerminal to start the client
+~~~
+USER>write $ZF(-1,"cd /opt/irisbuild  &&  node WsockIris.js")  
+~~~
+The sequence of these commands is important !
 Now it connects to IRIS and executes its orders    
 
 [Result 1](https://openexchange.intersystems.com/mp/img/packages/836/screenshots/xuzvnxiezqjfya75sfdhmim.jpg)
