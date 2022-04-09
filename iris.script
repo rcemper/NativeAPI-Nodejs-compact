@@ -1,7 +1,7 @@
 // Unexpire passwords for dev mode
 zn "%SYS"
 Do ##class(Security.Users).UnExpireUserPasswords("*")
-
 do $SYSTEM.OBJ.Load("/opt/irisbuild/src/%ZSocket.mac","ck") 
-
+zn "IRISAPP"
+zpm "install webterminal"
 halt
