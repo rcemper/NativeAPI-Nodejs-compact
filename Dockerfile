@@ -5,10 +5,9 @@ USER root
         
 WORKDIR /opt/irisbuild
 
-RUN apt-get update && \
-    apt-get install -y \
-    npm \
-    nodejs 
+RUN apt-get update
+RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get install npm -y 
+RUN apt-get install nodejs -y
 
 RUN chown ${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} /opt/irisbuild
 
