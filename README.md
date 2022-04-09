@@ -28,5 +28,10 @@ Open a new terminal on the download directory and start the node based service
 ~~~
 Now it connects to IRIS and executes its orders    
 
-[Example of the result](https://github.com/rcemper/IRIS-NativeAPI-Nodejs-compact/blob/master/READmore.MD)   
+[Example of the result](https://github.com/rcemper/IRIS-NativeAPI-Nodejs-compact/blob/master/Result.JPG?view=raw)   
 [Article in DC](https://community.intersystems.com/post/iris-nativeapi-nodejs-compact)   
+
+[Demo Server SMP](https://nodejs-api-compact.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://nodejs-api-compact.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality** in SCREENSHOTS   
