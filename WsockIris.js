@@ -1,6 +1,6 @@
 // JavaScript Document
 // get order from Global ^ZSocketIn
-//       ^ZSocketIn="wss://echo.websocket.org/"
+//       ^ZSocketIn="wss://ws.postman-echo.com/raw"
 //       ^ZSocketIn(0)=6
 //       ^ZSocketIn(1)="Hello"
 //       ^ZSocketIn(2)="World !"
@@ -10,7 +10,7 @@
 //       ^ZSocketIn(6)="exit"
 //
 // and set the reply in Global ^ZSocketOut
-//         ^ZSocketIn="wss://echo.websocket.org/"
+//         ^ZSocketIn="wss://ws.postman-echo.com/raw"
 //         ^ZSocketOut(0)=6
 //         ^ZSocketOut(1)="Hello"
 //         ^ZSocketOut(2)="World !"
@@ -23,7 +23,7 @@
 //       -1 => stop server and exit
 //        0 => wait for action
 //        1 => sent to echo server
-//              ^ZSocketRun(0)= echo server => "wss://echo.websocket.org/"
+//              ^ZSocketRun(0)= echo server => "wss://ws.postman-echo.com/raw"
 //
 const irisnative = require('intersystems-iris-native')
 const W3CWebSocket = require('websocket').w3cwebsocket;
