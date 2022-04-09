@@ -11,7 +11,7 @@ you see:
         *** wait 3sec for request ***  
             . . . . . . .   
         *** wait 3sec for request ***
-    echoserver:  wss://echo.websocket.org/
+    echoserver:  wss://ws.postman-echo.com/raw
     ** Lines to process: 1 **
     ********* next turn *********
     * WebSocket Client connected *
@@ -32,10 +32,10 @@ you see:
   
       *** Welcome to WebSocket Micoservice demo ***  
     Known Hosts (*=Exit) [1]:  
-    1  wss://echo.websocket.org/  
+    1  wss://ws.postman-echo.com/raw  
     2  --- server 2 ----  
     3  --- server 3 ----  
-    select (1):  ==> wss://echo.websocket.org/  
+    select (1):  ==> wss://ws.postman-echo.com/raw  
     #
     Enter text to get echoed from WebSocketClient Service
     Terminate with * at first position
