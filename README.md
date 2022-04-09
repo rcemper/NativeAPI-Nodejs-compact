@@ -28,8 +28,8 @@ Open a new terminal on the download directory and start the node based service
 ~~~
 Now it connects to IRIS and executes its orders    
 
-[Result 1](https://github.com/rcemper/IRIS-NativeAPI-Nodejs-compact/blob/master/Result1.JPG?raw=true)
-  [Result 2](https://github.com/rcemper/IRIS-NativeAPI-Nodejs-compact/blob/master/Result2.JPG?raw=true)   
+[Result 1](https://openexchange.intersystems.com/mp/img/packages/836/screenshots/xuzvnxiezqjfya75sfdhmim.jpg)
+  [Result 2](https://openexchange.intersystems.com/mp/img/packages/836/screenshots/zlywxudjc9xauv09ggwohabdhs.jpg)   
 
 [Article in DC](https://community.intersystems.com/post/iris-nativeapi-nodejs-compact)   
 
