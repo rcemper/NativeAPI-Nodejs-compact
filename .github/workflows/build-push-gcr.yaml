@@ -9,7 +9,7 @@ on:
 env:
   # Change this section according to your needs
   IMAGE_NAME:   nodejs-api-compact
-  SERVICE:      snodejs-api-compact
+  SERVICE:      nodejs-api-compact
   DOMAIN_NAME:  nodejs-api-compact.demo.community.intersystems.com
 # Leave this section untouched
   PROJECT_ID:   iris-community-demos
