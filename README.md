@@ -45,4 +45,5 @@ Now it connects to IRIS and executes its orders
 [Demo Server SMP](https://nodejs-api-compact.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
 [Demo Server WebTerminal](https://nodejs-api-compact.demo.community.intersystems.com/terminal/)    
         
-**Code Quality** in SCREENSHOTS   
+**Code Quality**   
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/836/screenshots/gavgr2vqackfvytkhfajjowc.jpg">
