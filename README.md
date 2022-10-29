@@ -28,7 +28,7 @@ USER>do ^%ZSocket
 ~~~
 Open a new terminal on the download directory and start the node based service   
 ~~~
-  docker-compose exec iris node WsockIris.js
+  docker-compose exec iris node /opt/irisbuild/WsockIris.js
 ~~~
 or open a new WebTerminal to start the client
 ~~~
