@@ -1,3 +1,4 @@
+<p align="right"><img src="https://github.com/isc-at/CPIPE/blob/master/archived.jpg"/></p>
 
 # IRIS-Nodejs-API-compact
 an all-in-1 package of the WebSocket MicroService Demo 
